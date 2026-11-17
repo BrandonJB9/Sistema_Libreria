@@ -1,0 +1,28 @@
+# Visual Studio / .NET
+.vs/
+bin/
+obj/
+**/packages/
+*.user
+*.suo
+*.cache
+*.vsidx
+*.bak
+
+# Archivos del sistema operativo
+Thumbs.db
+desktop.ini
+
+# Configuración local o secretos
+*.local
+*.local.*
+appsettings.*.local.json
+.env
+.env.*
+**/Presentacion/App.config
+
+# Claves privadas locales
+*.pfx
+*.p12
+*.key
+*.pem
